@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.header {
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+}
+
+
+/* imagen logo */
+
+.logo {
+    height: 80px;
+}
+
+
+/* checkbtn */
+
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+/* modificar el display */
+
+.checkbtn {
+    display: block;
+}
+
+#check {
+    display: none;
+}
+
+
+
+
+
+.header__menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+
+.header__menu li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+
+.header__menu li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+li a:hover,
+li a.active {
+    background: #000090;
+    transition: 1s;
+}
+
+
+#check:checked~ul {
+    left: 0;
+}
+
+
+main {
+
+    background: #c1fafa;
+}
+
+.div-fondo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.img-fondo {
+    height: 40vh;
+}
+
+.main h2 {
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+
+.grid-categorias {
+    display: grid;
+    width: auto;
+    grid-template-areas:
+        "gammer"
+        "destock"
+        "monitor"
+        "perif"
+        "tablet"
+        "notebook";
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3f7f7;
+}
+
+
+ .gammer {
+    grid-area: gammer;
+    background-image: url("https://www.gamecored.com/wp-content/uploads/2022/05/03-ROG-Flow-X16-1620x800.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.destock {
+    grid-area: destock;
+    background-image: url("https://www.cronista.com/files/image/441/441682/61f5f38f24bee_950_534!.jpg?s=b81a55973c131fe14d9f360db9067c61&d=1643592499");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.monitor {
+    grid-area: monitor;
+    background-image: url("https://hardzone.es/app/uploads-hardzone.es/2018/09/Monitor-vs-televisi%C3%B3n-01.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.perif {
+    grid-area: perif;
+    background-image: url("https://hardzone.es/app/uploads-hardzone.es/2022/03/portada-perifericos-ordenador.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.tablet {
+    grid-area: tablet;
+    background-image: url("https://images.pagina12.com.ar/styles/focal_content_1200x1050/public/2022-07/565009-tablet-20enacom.jpg?itok=ejZ7lmGY");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.notebook {
+    grid-area: notebook;
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1613762658454.webp");
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.footer__menu
+{   
+    background-color: #1e2020;
+}
+
+.footer__menu a
+{   
+    color: white;
+} 
+
+.contacto
+{   
+    background: none;
+    position: relative;
+    width: auto;
+}
+
+.formulario_imgfondo
+{
+    height: 100vw;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario 
+{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+
+
+   @media (min-width: 768px) {
+    .header__menu {
+        width: 70%;
+    }
+        .formulario 
+        {
+        position: absolute;
+        top: 80px;
+        left: 300px;
+        }
+    
+    
+}
+
+
+    .grid-categorias {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly;
+        height: 800px; 
+    }
+
+    .grid-categorias div {
+        width: 350px;
+        border: solid 15px black;
+        border-radius: 3px;
+    }  
+
+
+
+@media (min-width: 1024px) {
+
+
+
+    .checkbtn {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 4px;
+    }
+
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .div-fondo
+    {
+        width: 80%;
+        margin-left: 130px;
+    }
+
+
+    .header__menu {
+        background: none;
+        position: static;
+        margin-right: 20px;
+        flex-direction: row;
+        align-items: center;
+        width: fit-content;
+        height: 50px;
+    }
+
+    .header__menu li {
+        display: flex;
+        width: 200px;
+        margin: 0;
+        display: inline-block;
+        text-align-last: right;
+    } */
+
+
+
+    .header__menu li a {
+        font-size: 20px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+
+    .grid-categorias {
+        width: auto;
+    }
+
+    .grid-categorias div {
+        width: 300px;
+        height: 300px;
+    }
+
+    .formulario 
+{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+
+} 
+
+
+
+
