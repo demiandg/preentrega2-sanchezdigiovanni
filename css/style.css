@@ -211,7 +211,46 @@ main {
     left: 50px;
 }
 
+/* Preguntas */
+.preguntas
+{
+    background-color: #000090;
+}
 
+.preguntas-nav
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    background-image: url(../recursos/fondo_03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.preguntas-nav li
+{   
+    width: 250px;
+    padding: 3px;
+    border: 3px solid;
+    background-color: #2fcdcd;
+    color: aliceblue;
+    font-size: 40px; 
+}
+
+
+.preguntas-nav li:hover
+{   
+    width: 400px;
+    height: 60px;
+    padding: 3px;
+    border: 3px solid;
+    background-color: #476161;
+    color: rgb(235, 239, 241);
+    font-size: 50px; 
+}
 
 
 
@@ -285,7 +324,6 @@ main {
         display: flex;
         width: 200px;
         margin: 0;
-        display: inline-block;
         text-align-last: right;
     } */
 
