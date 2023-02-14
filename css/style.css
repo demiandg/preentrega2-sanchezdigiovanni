@@ -194,25 +194,14 @@ main {
 
 .contacto
 {   
-    background: none;
-    position: relative;
-    width: auto;
-}
-
-.formulario_imgfondo
-{
     height: 100vw;
-    opacity: 0.5;
+    background-image: url(../recursos/pc-gamer-arenas-games-www.culturageek.com-4.jpg);
     background-size: cover;
-    background-position: center;
+    text-align: center;
 }
 
-.formulario 
-{
-    position: absolute;
-    top: 80px;
-    left: 50px;
-}
+
+
 
 /* Preguntas */
 .preguntas
@@ -261,9 +250,9 @@ main {
     .header__menu {
         width: 70%;
     }
-        .formulario 
+        .contacto
         {
-        position: absolute;
+        height: 400px;
         top: 80px;
         left: 300px;
         }
@@ -349,9 +338,8 @@ main {
         height: 300px;
     }
 
-    .formulario 
-{
-    position: absolute;
+    .contacto
+{  
     top: 100px;
     left: 550px;
 }
