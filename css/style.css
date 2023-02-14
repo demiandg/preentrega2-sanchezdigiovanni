@@ -339,8 +339,14 @@ main {
         height: 300px;
     }
 
+.formulario
+{
+    margin-top: 150px;
+}
+
     .contacto
 {  
+    height: 100vh;
     top: 100px;
     left: 550px;
 }
