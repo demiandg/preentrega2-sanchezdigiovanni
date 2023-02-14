@@ -190,6 +190,11 @@ main {
 } 
 
 
+.item_seleccion
+{
+    background-color: #000090;
+}
+
 /* Contacto */
 
 .contacto
@@ -204,10 +209,6 @@ main {
 
 
 /* Preguntas */
-.preguntas
-{
-    background-color: #000090;
-}
 
 .preguntas-nav
 {   
