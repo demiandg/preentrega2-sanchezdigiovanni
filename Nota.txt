@@ -1,0 +1,2 @@
+se agregaron iconos de getbootstrap en novedades.
+No pude aun trasladar los estilos creados en CSS a SCSS, sigo buscando solución para el problema: An output directory must be specified when compiling a directory
